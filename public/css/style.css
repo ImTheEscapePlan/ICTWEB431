@@ -36,12 +36,17 @@ div.clear {
         width: 30%;
     }
 }
-header, div.left, div.right { border: 1px solid black; color: white; }
+header, footer, div.left, div.right { border: 1px solid black; color: white; }
 
 header {
     width: 100%;
     overflow: auto;
     background-color: black;
+}
+footer {
+  width: 100%;
+  overflow: auto;
+  background-color: black;
 }
 main {
     text-align: center;
